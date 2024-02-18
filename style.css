@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url("./img/pexels-nikolaos-dimou-1319459.jpg");
+    background-size: cover;
+    display: flex;
+    background-color: #000;
+}
+
+header {
+    background: transparent;
+    text-align: right;
+    padding: 20px;
+    width: 85rem;
+
+}
+
+a {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.button-orange {
+    background-color: #FBB034;
+    color: #000;
+    font-weight: bold;
+    height: 2.8rem;
+    width: 8.5rem;
+    margin: 0 50px 0 25px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.wrapper {
+    position: absolute;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    padding: 35px;
+    width: 33rem;
+    margin-top: 4rem;
+}
+
+h3 {
+    color: #FBB034;
+    font-size: 0.8rem;
+    font-weight: 200;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 25rem;
+}
+
+.button-orange-2 {
+    margin-top: 4rem;
+    margin-left: 1px;
+
+}
+
+.button-transparent {
+    height: 2.8rem;
+    width: 8.5rem;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        width: 49rem;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    header {
+        width: 49rem;
+    }
+
+    a {
+        display: none;
+    }
+
+    .button-orange {
+
+        margin-right: 512px;
+    }
+
+    .wrapper {
+
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        width: 22rem;
+        margin-top: 4rem;
+        position: inherit;
+        margin: -24px;
+    }
+
+    p {
+        width: 21rem;
+    }
+
+    .button-orange {
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+
+        margin-top: -48px;
+        margin-left: 89px;
+    }
+}
